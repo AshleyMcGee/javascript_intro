@@ -31,7 +31,7 @@
             <!-- Navigation -->
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
                 <img id="logo" src="../static/project_logo-large.png" width="85" height="80">
-                <a class="navbar-brand" href="index.html">OPERATION DREAMLAND</a>
+                <a class="navbar-brand" href="#">OPERATION DREAMLAND</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -57,14 +57,13 @@
                 <!-- begin .container -->
                 <div class="container">
                     <!-- Begin row -->
-                    <!-- Begin row -->
                     <div class="row">
                         <div class="col-12">
                         <h2>SEARCH BY:</h2>
                         <form>
                             <div class="form-row">
                             <div class="form-group">
-                                <label for="date-time-input" class="labels">DATE</label>
+                                <label for="date-time-input" class="labels">DATE/TIME</label>
                                 <input type="date" class="form-control" id="date-time-input" placeholder="DATE/TIME">
                             </div>
                             <div>
@@ -80,10 +79,7 @@
                             </div>
                             <div>
                                 <label for="country-input" class="labels">COUNTRY</label>
-                                <select class="form-control" id="country-input">
-                                    <option selected>Choose...</option>
-                                    <option>...</option>
-                                </select>
+                                <input type="search" class="form-control" id="country-input" placeholder="COUNTRY">
                             </div>
                             <div>
                                 <label for="shape-input" class="labels">SHAPE</label>
@@ -92,11 +88,7 @@
                                     <option>...</option>
                                 </select>
                             </div>
-                            <div>
-                                <label id="comment-label" for="comment-input" class="labels">COMMENT</label>
-                                <input type="text" class="form-control" id="comment-input" placeholder="COMMENT">
-                            </div>
-                                <button id="submit-entry" type="button" class="btn form-control">REPORT</button>
+                                <button id="submit-button" type="button" class="btn form-control">PROCESS</button>
                             </div>
                         </form>
                         </div>
